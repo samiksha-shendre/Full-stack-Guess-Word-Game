@@ -1,42 +1,61 @@
-.mainGameDiv{
-    min-width: 350px;
-    max-width: 60vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.fullGameDiv {
+  display: flex;
+  justify-content: center;
+  /* background-color: aquamarine; */
 }
-.keyboard{
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* background-color: pink; */
+.mainGameDiv {
+  min-width: 200px;
+  max-width: 600px;
+  /* background-color: pink; */
 }
-.key{
-    height: 45px;
-    width: 45px;
-    background-color: #29a4b5;
-    border: none;
-    border-radius: 4px;
-    margin: 5px;
-    font-size: 20px;
-    color: white;
-    font-weight: 700;
+.displayThemeDiv {
+  height: 100vh;
+  min-width: 200px;
+  max-width: 500px;
 }
-.indvCurrentWord{
-    height: 40px;
-    width: 35px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.batteryImage {
+  height: 200px;
 }
-.indvCurrentWordDiv{
-    height: fit-content;
-    width: fit-content;
-    display: flex;
+
+.keyboard {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: pink; */
+}
+.key {
+  height: 45px;
+  width: 45px;
+  background-color: #29a4b5;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+.indvCurrentWord {
+  height: 40px;
+  width: 35px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.indvCurrentWordDiv {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hintText {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
 }
