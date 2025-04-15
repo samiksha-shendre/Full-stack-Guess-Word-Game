@@ -132,7 +132,7 @@ function MainGame() {
             <h1>Word {count}</h1>
           </div>
           <div className="indvCurrentWordDiv">{showCurrentWord}</div>
-          <p className="hintText">Hint: {currentWord.hint}</p>
+          <p className="hintText">Hint💡: {currentWord.hint}</p>
           <div className="keyboard">{showAllAlphabets}</div>
         </div>
         <div className="displayThemeDiv">
